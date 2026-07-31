@@ -1,7 +1,31 @@
 aid: openlight
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openlight.png
 name: Openlight
-description: Openlight is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OpenLight Photonics is a silicon photonics company that designs and manufactures
+  custom Photonic Application-Specific Integrated Circuits (PASICs) using a
+  heterogeneously integrated, open silicon photonics platform that builds active
+  components such as lasers and modulators onto the same chip as passive waveguides.
+  Operating an open foundry model out of Goleta, California, OpenLight offers three
+  services: design enablement through its Process Design Kit (PDK) with component
+  libraries, evaluation kits, and a PDK Sampler; in-house custom PASIC design; and
+  production manufacturing. Its technology targets datacom, telecom, AI data-center
+  interconnect, lidar, HPC, healthcare, quantum, and IoT sensing. Spun out of Synopsys
+  as an independent, venture-backed company in 2025, OpenLight has raised roughly $84M
+  (a $34M Series A in 2025 and a $50M Series A-1 in 2026) from investors including
+  Mayfield. This is a hardware/semiconductor company; it publishes no public web API,
+  developer portal, or OpenAPI at this time — its developer surface is the chip-design PDK.
 url: https://raw.githubusercontent.com/api-evangelist/openlight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Silicon Photonics
+- Semiconductors
+- Photonics
+- PASIC
+- Hardware
+- Data Center
+- Optical Interconnect
+- Chip Design
+- Deep Tech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/openlight-domain-security.yml
+- type: Website
+  url: https://openlightphotonics.com/
+- type: About
+  url: https://openlightphotonics.com/about
+- type: Blog
+  url: https://openlightphotonics.com/newsroom
+- type: Careers
+  url: https://careers.kula.ai/openlightphotonics
+- type: Contact
+  url: https://openlightphotonics.com/contact
+- type: PrivacyPolicy
+  url: https://openlightphotonics.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/openlightphotonics/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
