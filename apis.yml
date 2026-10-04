@@ -54,7 +54,7 @@ tags:
 - Photonics
 - PASIC
 - Hardware
-- Data-Center
+- Data Center
 - Optical Interconnect
 - Chip Design
 - Deep Tech
@@ -69,6 +69,7 @@ tags_raw:
 - Optical Interconnect
 - Chip Design
 - Deep Tech
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
